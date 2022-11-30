@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computador",
+      "price": 4099.99
+    },
+    {
+      "id": 2,
+      "name": "Celular",
+      "price": 1400.8
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "price": 2200.59
+    },
+    {
+      "name": "PlayStation",
+      "price": "4999.99",
+      "id": 4
+    },
+    {
+      "name": "geladeira",
+      "price": "3000.99",
+      "id": 5
+    }
+  ]
+}
