@@ -11,13 +11,8 @@
       "price": 1400.8
     },
     {
-      "id": 3,
-      "name": "Tablet",
-      "price": 2200.59
-    },
-    {
-      "name": "PlayStation",
-      "price": "4999.99",
+      "name": "PlayStation 5",
+      "price": "4309.99",
       "id": 4
     },
     {
