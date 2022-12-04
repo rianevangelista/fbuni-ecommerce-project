@@ -34,6 +34,8 @@ import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
+import { ClientRegisterComponent } from './components/client/client-register/client-register.component';
+
 registerLocaleData(localePt);
 
 @NgModule({
@@ -48,7 +50,8 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductRead2Component,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+    ClientRegisterComponent
   ],
   imports: [
     BrowserModule,

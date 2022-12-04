@@ -9,6 +9,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
+import { ClientRegisterComponent } from './components/client/client-register/client-register.component';
+
 const routes: Routes = [
   {
     path: "",
@@ -29,7 +31,16 @@ const routes: Routes = [
   {
     path: "products/delete/:id",
     component: ProductDeleteComponent
+  },
+  {
+    path: "clients",
+    component: HomeComponent
+  },
+  {
+    path: "clients/register",
+    component: ClientRegisterComponent
   }
+
 
 ];
 
