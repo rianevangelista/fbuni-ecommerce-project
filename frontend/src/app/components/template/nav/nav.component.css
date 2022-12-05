@@ -15,3 +15,9 @@
     padding: 16px;
     background-color: #FFF;
 }
+
+.container {
+    margin: 0;
+    width: 100%;
+    --bs-gutter-x: 0;
+}

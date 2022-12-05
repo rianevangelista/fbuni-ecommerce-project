@@ -21,7 +21,26 @@ export class ClientService {
     })
   }
 
+  read(): Observable<Client[]> {
+    return this.http.get<Client[]>(this.baseUrl)
+  }
+
+  readById(id: number): Observable<Client> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Client>(url)
+  }
+
+  update(client: Client): Observable<Client> {
+    const url = `${this.baseUrl}/${client.id}`
+    return this.http.put<Client>(url, client)
+  }
+
   register(client: Client): Observable<Client> {
     return this.http.post<Client>(this.baseUrl, client)
+  }
+
+  delete(id: number): Observable<Client> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Client>(url);
   }
 }

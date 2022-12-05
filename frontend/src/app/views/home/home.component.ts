@@ -12,6 +12,10 @@ export class HomeComponent {
 
   }
 
+  navigateToProductCreate(): void {
+    this.router.navigate(['/products/create'])
+  }
+  
   navigateToClientRegister(): void {
     this.router.navigate(['/clients/register'])
   }

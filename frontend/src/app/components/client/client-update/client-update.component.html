@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Alterar dados do Cliente</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" 
+            [(ngModel)]="client.email" name="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Senha"
+            [(ngModel)]="client.senha" name="senha">
+        </mat-form-field>
+    </form>
+</mat-card>
+<button mat-raised-button (click)="updateClient()" color="primary">
+    Atualizar
+</button>
+
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

@@ -3,7 +3,9 @@
     {
       "id": 1,
       "name": "Computador",
-      "price": 4099.99
+      "price": 4099.99,
+      "category": "Eletronico",
+      "status": "ativo"
     },
     {
       "id": 2,
@@ -16,9 +18,30 @@
       "id": 4
     },
     {
-      "name": "geladeira",
-      "price": "3000.99",
-      "id": 5
+      "name": "Ventilador",
+      "price": "500.50",
+      "category": "eletrodomestico",
+      "status": "ativo",
+      "id": 6,
+      "code": "1234567890123",
+      "quantity": "3"
+    },
+    {
+      "name": "Liquidificador",
+      "price": "100.00",
+      "quantity": "2",
+      "category": "eletroportátil",
+      "status": "ativo",
+      "id": 7
+    },
+    {
+      "name": "Freezer",
+      "price": "780.78",
+      "code": "0987654321123",
+      "quantity": "2",
+      "category": "Eletrodoméstico",
+      "status": "ativo",
+      "id": 8
     }
   ]
 }

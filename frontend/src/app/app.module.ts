@@ -35,6 +35,9 @@ import { ProductUpdateComponent } from './components/product/product-update/prod
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
 import { ClientRegisterComponent } from './components/client/client-register/client-register.component';
+import { ClientReadComponent } from './components/client/client-read/client-read.component';
+import { ClientUpdateComponent } from './components/client/client-update/client-update.component';
+import { ClientDeleteComponent } from './components/client/client-delete/client-delete.component';
 
 registerLocaleData(localePt);
 
@@ -51,7 +54,10 @@ registerLocaleData(localePt);
     ProductRead2Component,
     ProductUpdateComponent,
     ProductDeleteComponent,
-    ClientRegisterComponent
+    ClientRegisterComponent,
+    ClientReadComponent,
+    ClientUpdateComponent,
+    ClientDeleteComponent
   ],
   imports: [
     BrowserModule,
